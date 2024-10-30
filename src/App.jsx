@@ -1,14 +1,15 @@
-
+import React from 'react';
 import './App.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Button from './Button';
+import Button  from './Button';
 import Aside from './Aside/Aside';
 import fundoSite from './assets/fundoSite.jpg';
 import CardF from './Card';
-import TabsF from './Tabs';
-
+import ModalF from './Modal';
 
 function App() {
+
+  const [modalShow, setModalShow] = React.useState(false);
 
   return (
     <>
@@ -64,8 +65,14 @@ function App() {
         </section>
 
         <section className='text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center'>
-          <h2 className='text-3xl font-bold mt-32'> Meu trabalho(Frelances)</h2>
-          <TabsF />
+          <h2 className='text-3xl font-bold my-32'> Meu trabalho(Frelances)</h2>
+          
+          <img src="../src/assets/patrickFreitas.jpg" alt="Patrick Freitas" className="border-4 border-gray-400 rounded-full size-28 ml-16 mr-8 mt-8 cursor-pointer" onClick={() => setModalShow(true)}/>
+          <ModalF
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+          />
+
         </section>
       </div>
     </>
