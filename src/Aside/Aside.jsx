@@ -1,15 +1,15 @@
 
 function Aside(){
   return(
-    <aside className=" min-h-screen bg-gray-900 flex flex-col">
-    <img src="../src/assets/patrickFreitas.jpg" alt="Patrick Freitas" className="border-4 border-gray-400 rounded-full size-28 ml-8 mr-8 mt-8" />
+    <aside className=" fixed min-h-screen bg-gray-900 flex flex-col w-64">
+    <img src="../src/assets/patrickFreitas.jpg" alt="Patrick Freitas" className="border-4 border-gray-400 rounded-full size-28 ml-16 mr-8 mt-8" />
 
     <h2 className='font-bold mt-2 text-white'> <a href='/'>Patrick Freitas</a></h2>
 
     <nav className="mt-60 text-white">
       <ul className='space-y-3'>
         <li className='hover:text-orange-600 transition-colors duration-200 ease-in-out'> <a href="/">Início</a></li>
-        <li className='hover:text-orange-600 transition-colors duration-200 ease-in-out'> <a href="/">Resumo</a></li>
+        <li className='hover:text-orange-600 transition-colors duration-200 ease-in-out'> <a href="/">Sobre mim</a></li>
         <li className='hover:text-orange-600 transition-colors duration-200 ease-in-out'> <a href="/">Portifolio</a></li>
         <li className='hover:text-orange-600 transition-colors duration-200 ease-in-out'> <a href="/">Contato</a></li>
       </ul>
