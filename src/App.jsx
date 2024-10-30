@@ -71,10 +71,47 @@ function App() {
           <ModalF
             show={modalShow}
             onHide={() => setModalShow(false)}
+            // fazer passar os props por aqui
           />
 
+          <img src="../src/assets/patrickFreitas.jpg" alt="Patrick Freitas" className="border-4 border-gray-400 rounded-full size-28 ml-16 mr-8 mt-8 cursor-pointer" onClick={() => setModalShow(true)}/>
+          <ModalF
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            // fazer passar os props por aqui
+          />
+
+
         </section>
+
+        <section className="text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center"> 
+          <h2 className='text-3xl font-bold mt-32'>Fale comigo</h2>
+
+          <div className='grid grid-cols-2 m-auto gap-44'>
+
+            <div>
+              <h3 className='text-2xl font-semibold mb-4 mt-16'>Endereço</h3>
+              <p>Juiz de Fora - MG</p>
+              <p>Icon <span>32 98401-7422</span></p>
+              <p>Patrick.freitas@engenharia.ufjf.br</p>
+              <h2>Siga Me</h2>
+              <p>icones</p>
+            </div>
+
+            <div>
+              <h3 className='text-2xl font-semibold mb-4 mt-16'>Entre em Contato</h3>
+              <Button />
+            </div>
+
+          </div>
+
+        </section>
+
       </div>
+      <footer className='bg-slate-900 text-white font-bold m-auto p-8'>
+      Copyright © 2024 Thainan Prado. Alguns dos direitos reservados.
+      <p className='text-right'>icone</p>
+      </footer>
     </>
   )
 }
