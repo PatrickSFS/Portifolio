@@ -6,6 +6,7 @@ import Aside from './Aside/Aside';
 import fundoSite from './assets/fundoSite.jpg';
 import CardF from './Card';
 import ModalF from './Modal';
+import TypedEffect from './TypedEffect';
 
 function App() {
 
@@ -13,30 +14,30 @@ function App() {
 
   return (
     <>
-      <div>
-        <div className='flex'>
+      <div className='text-white'>
+        <div className='flex '>
           <Aside />
-          <main
-            className='flex-1 flex flex-col items-center justify-center p-4 bg-cover bg-center min-h-screen'
+
+          <main id='inicio'
+            className='flex-1 flex flex-col bg-cover bg-center min-h-screen'
             style={{
               backgroundImage: `url(${fundoSite})`
             }}
           >
-            <div className="text-center">
-              <h1 className='text-3xl font-bold mb-2'>
+            <div className='mt-32'>
+              <h1 className='text-5xl font-bold'>
                 Bem vindo!
               </h1>
-              <h2 className='text-xl font-semibold text-gray-600 mb-4'>
-                Desenvolvedor Full stack
-              </h2>
+              <TypedEffect text="Sou Desevolvedor Front End, apaixonado em criar..."/>
               <Button />
             </div>
           </main>
+
         </div>
 
-        <section className="text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center"> 
+        <section className="text-center bg-neutral-800 text-white min-h-screen p-10 flex flex-col items-center" id='sobre-mim'> 
           <h2 className='text-3xl font-bold mt-32'>Um pouco sobre mim</h2>
-          <h3 className='text-2xl font-semibold mb-4 mt-16'>Eu sou Patrick Freitas, um desenvolvedor web</h3>
+          <h3 className='text-2xl font-semibold mb-4 mt-16'>Eu sou <span className='text-orange-500'>Patrick Freitas </span>, um desenvolvedor web</h3>
           <p className='opacity-70 max-w-2xl mx-auto'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sapiente harum incidunt ea, recusandae adipisci sed maxime quasi vitae sunt neque perspiciatis earum eveniet ullam veniam est fugiat saepe aut! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam animi quas deleniti blanditiis molestias nihil quod optio assumenda harum voluptatum dolorum, et rerum facilis atque pariatur cumque, quia molestiae iusto!
           </p>
@@ -64,7 +65,7 @@ function App() {
           </div>
         </section>
 
-        <section className='text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center'>
+        <section className='text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center' id='portifolio'>
           <h2 className='text-3xl font-bold my-32'> Meu trabalho(Frelances)</h2>
           
           <img src="../src/assets/patrickFreitas.jpg" alt="Patrick Freitas" className="border-4 border-gray-400 rounded-full size-28 ml-16 mr-8 mt-8 cursor-pointer" onClick={() => setModalShow(true)}/>
@@ -84,7 +85,7 @@ function App() {
 
         </section>
 
-        <section className="text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center"> 
+        <section className="text-center bg-stone-800 text-white min-h-screen p-10 flex flex-col items-center" id='contato'> 
           <h2 className='text-3xl font-bold mt-32'>Fale comigo</h2>
 
           <div className='grid grid-cols-2 m-auto gap-44'>
@@ -108,8 +109,8 @@ function App() {
         </section>
 
       </div>
-      <footer className='bg-slate-900 text-white font-bold m-auto p-8'>
-      Copyright © 2024 Thainan Prado. Alguns dos direitos reservados.
+      <footer className='bg-slate-900 text-white font-bold p-8'>
+      <p>Copyright © 2024 Thainan Prado. Alguns dos direitos reservados.</p>
       <p className='text-right'>icone</p>
       </footer>
     </>
