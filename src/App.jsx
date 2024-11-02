@@ -37,8 +37,13 @@ function App() {
         </main>
       </div>
 
+      {/* Um pouco sobre mim */}
       <FirstSection />
+
+       {/* Meu trabalho */}
       <SecondSection />
+
+       {/* Fale comigo */}
       <ThirdSection />
       <Footer />
     </>
