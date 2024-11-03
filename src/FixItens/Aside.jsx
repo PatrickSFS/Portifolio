@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "../Button";
 
 function Aside() {
@@ -6,7 +6,7 @@ function Aside() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["inicio", "sobre-mim", "portifolio", "contato"];
+      const sections = ["inicio", "sobre-mim", "Resumo", "portifolio", "contato"];
       let currentSection = "";
 
       for (let section of sections) {
@@ -57,6 +57,13 @@ function Aside() {
             }`}
           >
             <a href="#sobre-mim">Sobre mim</a>
+          </li>
+          <li
+            className={`transition-colors duration-200 ease-in-out ${
+              activeSection === "Resumo" ? "text-orange-500" : "hover:text-orange-500"
+            }`}
+          >
+            <a href="#Resumo">Resumo</a>
           </li>
           <li
             className={`transition-colors duration-200 ease-in-out ${

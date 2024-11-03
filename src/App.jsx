@@ -12,11 +12,12 @@ import Aside from './FixItens/Aside';
 import Footer from './Footer';
 import WhatsAppButton from './FixItens/WhatsAppButton';
 
+
 //Sections
 import AboutMe from './Sections/AboutMe';
 import MyWork from './Sections/MyWork';
 import Contact from './Sections/Contact';
-
+import Skills from './Sections/Skills';
 
 
 
@@ -44,6 +45,9 @@ function App() {
 
       {/* Um pouco sobre mim */}
       <AboutMe />
+
+       {/* Habilidades */}
+      <Skills />
 
        {/* Meu trabalho */}
       <MyWork />

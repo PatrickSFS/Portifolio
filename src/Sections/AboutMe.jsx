@@ -3,8 +3,8 @@ import CardF from "../Card";
 
 function AboutMe() {
   return (
-    <section className=" text-left bg-neutral-800 text-white min-h-screen p-10 flex flex-col items-center" id='sobre-mim'>
-      <h2 className='text-4xl font-bold mt-32 border-b-4 pb-3 border-orange-500'>Um pouco sobre mim</h2>
+    <section className=" text-left bg-neutral-800 text-white min-h-screen flex flex-col items-center" id='sobre-mim'>
+      <h2 className='text-4xl font-bold mt-8 border-b-4 pb-3 border-orange-500'>Um pouco sobre mim</h2>
       <h3 className='text-2xl font-semibold mb-4 mt-16'>Eu sou <span className='text-orange-500'>Patrick Freitas </span>, um desenvolvedor web</h3>
       <p className='opacity-70 max-w-2xl mx-auto text-justify'>
         Faço analise e desenvolvimento de sistemas, porém ja codo desde meus 14 anos, minha primeira linguaguem foi C, porém mais tarde aprendi e me apaixonei por Javascript, C++, SQL, Python e orientação a objeto no geral.
@@ -19,8 +19,8 @@ function AboutMe() {
       </div>
 
 
-      <h2 className='text-4xl font-bold mt-48 border-b-4  pb-3 border-orange-500'>O que eu faço?</h2>
-      <div className='grid grid-cols-2 gap-2  mt-4'>
+      <h2 className='text-4xl font-bold mt-8 border-b-4  pb-3 border-orange-500'>O que eu faço?</h2>
+      <div className='grid grid-cols-2 gap-2 mt-4 mb-24'>
         <CardF
           title="Web Design"
           text="Criação de sistema web, atraente, responsivo."

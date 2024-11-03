@@ -7,7 +7,7 @@ function MyWork() {
   return (
     <section className=" text-l bg-neutral-700 text-white p-4 " id="portifolio">
       
-        <h2 className="max-w-md mx-auto text-3xl font-bold my-32 pb-3 border-b-4 border-orange-500">
+        <h2 className="max-w-md mx-auto text-3xl font-bold my-8 pb-3 border-b-4 border-orange-500">
           Meu trabalho (Freelances)
         </h2>
 
@@ -72,7 +72,7 @@ function MyWork() {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mb-24">
           <img
             src="../src/assets/FundoCard.png"
             alt="Patrick Freitas"
