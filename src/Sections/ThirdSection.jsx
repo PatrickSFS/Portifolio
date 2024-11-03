@@ -13,19 +13,36 @@ function ThirdSection() {
             <i className='bi bi-telephone text-orange-500 mr-2'></i>
             <p >32 98401-7422</p>
           </div>
+
           <div className='flex'>
             <i className='bi bi-envelope text-orange-500 mr-2'></i>
             <p >Patrick.freitas@engenharia.ufjf.br </p>
           </div>
-          
+
           <h2 className='font-bold mt-6'>Siga Me</h2>
           <div className='mt-1'>
-            <i className='bi bi-linkedin cursor-pointer  hover:text-orange-500 duration-200 ease-out'></i>
-            <i className='bi bi-github cursor-pointer ml-2 hover:text-orange-500 duration-200 ease-out'></i>
-            <i className='bi bi-instagram cursor-pointer ml-2 hover:text-orange-500 duration-200 ease-out'></i>
+            <a
+              href="https://www.linkedin.com/in/patrick-freitas-5bb062194/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i className='bi bi-linkedin cursor-pointer hover:text-orange-500 duration-200 ease-out'></i>
+            </a>
+
+            <a
+              href="https://github.com/PatrickSFS"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i className='bi bi-github cursor-pointer ml-2 hover:text-orange-500 duration-200 ease-out'></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/patricksfs/"
+              target="_blank"
+              rel="noopener noreferrer" >
+              <i className='bi bi-instagram cursor-pointer ml-2 hover:text-orange-500 duration-200 ease-out'></i>
+            </a>
+
           </div>
-
-
         </div>
         <div>
           <h3 className='text-2xl font-semibold mb-4 mt-16'>Entre em Contato</h3>

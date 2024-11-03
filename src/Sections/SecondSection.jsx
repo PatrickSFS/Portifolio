@@ -23,11 +23,12 @@ function SecondSection() {
           <ModalF
             show={modalShow}
             onHide={() => setModalShow(false)}
-            title="teste"
-            content="teste"
-            tec="teste"
-            data="teste"
-            site="teste"
+            img="../src/assets/FundoCard.png"
+            title="in progress..."
+            content="in progress..."
+            tec="in progress..."
+            data="in progress..."
+            site="in progress..."
             
           />
         </div>
@@ -42,11 +43,12 @@ function SecondSection() {
           <ModalF
             show={modalShow}
             onHide={() => setModalShow(false)}
-            title="teste"
-            content="teste"
-            tec="teste"
-            data="teste"
-            site="teste"
+            img="../src/assets/FundoCard.png"
+            title="in progress..."
+            content="in progress..."
+            tec="in progress..."
+            data="in progress..."
+            site="in progress..."
             
           />
         </div>
@@ -61,12 +63,12 @@ function SecondSection() {
           <ModalF
             show={modalShow}
             onHide={() => setModalShow(false)}
-            title="teste"
-            content="teste"
-            tec="teste"
-            data="teste"
-            site="teste"
-            
+            img="../src/assets/FundoCard.png"
+            title="in progress..."
+            content="in progress..."
+            tec="in progress..."
+            data="in progress..."
+            site="in progress..."
           />
         </div>
 
@@ -80,11 +82,12 @@ function SecondSection() {
           <ModalF
             show={modalShow}
             onHide={() => setModalShow(false)}
-            title="teste"
-            content="teste"
-            tec="teste"
-            data="teste"
-            site="teste"
+            img="../src/assets/FundoCard.png"
+            title="in progress..."
+            content="in progress..."
+            tec="in progress..."
+            data="in progress..."
+            site="in progress..."
             
           />
         </div>
