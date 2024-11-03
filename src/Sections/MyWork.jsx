@@ -1,7 +1,7 @@
 import ModalF from "../Modal";
 import React from "react";
 
-function SecondSection() {
+function MyWork() {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
@@ -97,4 +97,4 @@ function SecondSection() {
   );
 }
 
-export default SecondSection;
+export default MyWork;

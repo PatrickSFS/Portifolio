@@ -1,7 +1,7 @@
 
 import CardF from "../Card";
 
-function FirstSection() {
+function AboutMe() {
   return (
     <section className=" text-left bg-neutral-800 text-white min-h-screen p-10 flex flex-col items-center" id='sobre-mim'>
       <h2 className='text-4xl font-bold mt-32 border-b-4 pb-3 border-orange-500'>Um pouco sobre mim</h2>
@@ -44,4 +44,4 @@ function FirstSection() {
   )
 }
 
-export default FirstSection;
+export default AboutMe;

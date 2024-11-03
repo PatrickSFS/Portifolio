@@ -1,6 +1,6 @@
 import Button from '../Button';
 
-function ThirdSection() {
+function Contact() {
 
   return (
     <section className="text-left bg-neutral-800 text-white min-h-screen p-10 flex flex-col items-center " id='contato'>
@@ -53,4 +53,4 @@ function ThirdSection() {
   )
 }
 
-export default ThirdSection;
+export default Contact;

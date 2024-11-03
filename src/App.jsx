@@ -13,9 +13,9 @@ import Footer from './Footer';
 import WhatsAppButton from './FixItens/WhatsAppButton';
 
 //Sections
-import FirstSection from './Sections/FirstSection';
-import SecondSection from './Sections/SecondSection';
-import ThirdSection from './Sections/thirdSection';
+import AboutMe from './Sections/AboutMe';
+import MyWork from './Sections/MyWork';
+import Contact from './Sections/Contact';
 
 
 
@@ -41,15 +41,15 @@ function App() {
       </div>
 
       <WhatsAppButton />
-      
+
       {/* Um pouco sobre mim */}
-      <FirstSection />
+      <AboutMe />
 
        {/* Meu trabalho */}
-      <SecondSection />
+      <MyWork />
 
        {/* Fale comigo */}
-      <ThirdSection />
+      <Contact />
 
 
 
