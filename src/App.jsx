@@ -8,13 +8,15 @@ import fundoSite from './assets/fundoSite.jpg';
 //Componentes
 import TypedEffect from './TypedEffect';
 import Button from './Button';
-import Aside from './Aside/Aside';
+import Aside from './FixItens/Aside';
 import Footer from './Footer';
+import WhatsAppButton from './FixItens/WhatsAppButton';
 
 //Sections
 import FirstSection from './Sections/FirstSection';
 import SecondSection from './Sections/SecondSection';
 import ThirdSection from './Sections/thirdSection';
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
     <>
       <div className='flex '>
         <Aside />
+        
         <main
           id='inicio'
           className='flex-1 flex flex-col bg-cover bg-center min-h-screen'
@@ -37,6 +40,8 @@ function App() {
         </main>
       </div>
 
+      <WhatsAppButton />
+      
       {/* Um pouco sobre mim */}
       <FirstSection />
 
@@ -45,6 +50,9 @@ function App() {
 
        {/* Fale comigo */}
       <ThirdSection />
+
+
+
       <Footer />
     </>
   )
