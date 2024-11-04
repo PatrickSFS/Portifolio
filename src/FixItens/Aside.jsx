@@ -33,7 +33,7 @@ function Aside() {
     <aside className="fixed min-h-screen bg-neutral-900 flex flex-col w-64">
       <div>
         <img
-          src="../src/assets/patrickFreitas.jpg"
+          src="https://cdn.discordapp.com/attachments/1282830483075366964/1302970293169684480/patrickFreitas.jpg?ex=672a0d25&is=6728bba5&hm=68d0e5f87c77f8d7eebf58090f530c5393503c67b02c1b29d23fe50acdb1d81a&"
           alt="Patrick Freitas"
           className="border-4 border-gray-400 rounded-full size-36 ml-14 mt-8 cursor-pointer"
         />
