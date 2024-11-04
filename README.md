@@ -2,6 +2,9 @@
 
 Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para apresentar minhas habilidades e projetos como desenvolvedor web. Aqui você pode encontrar mais informações sobre mim, ver amostras dos meus projetos e aprender sobre minhas principais competências técnicas.
 
+## Acesse o site do portifolio aqui:
+[clique aqui](https://portifolio-3jcuq507b-patricks-projects-db525c76.vercel.app)
+
 ## Tecnologias Utilizadas
 
 Este projeto foi desenvolvido usando as seguintes tecnologias:
