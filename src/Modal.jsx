@@ -29,17 +29,16 @@ function ModalF(props) {
       <Modal.Body className='bg-neutral-700 text-white'>
 
         <div className='grid grid-cols-2'>
-          <img src={props.img} alt="" />
+          <img src={props.img} alt="" className='w-[350px] h-[260px]'/>
           <div>
-
             <h4 className='text-2xl font-bold'>Informações do projeto</h4>
             <p className='opacity-70'>
             {props.content}
             </p>
-            <h4 className='text-2xl font-bold'>Detalhes do projeto</h4>
-            <h2 className='text-base font-bold'>Tecnologias: <span className='opacity-70'>{props.tec}</span></h2>
-            <h4 className='text-base font-bold'>Data <span className='opacity-70'>{props.data}</span></h4>
-            <h4 className='text-base font-bold'>URL: <span className='opacity-70'> {props.site}</span></h4>
+            <h4 className='text-2xl font-bold py-2'>Detalhes do projeto</h4>
+            <h2 className='text-base font-bold py-2'>Tecnologias: <span className='opacity-70 font-normal'>{props.tec}</span></h2>
+            <h4 className='text-base font-bold py-2'>Data <span className='opacity-70 font-normal'>{props.data}</span></h4>
+            <h4 className='text-base font-bold cursor-pointer'>URL: <a href={props.site} target='blank' className='opacity-70 hover:text-orange-500 hover:opacity-100 font-normal'>{props.site}</a></h4>
           </div>
         </div>
       </Modal.Body>
