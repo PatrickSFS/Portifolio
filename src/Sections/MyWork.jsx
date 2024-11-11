@@ -3,7 +3,7 @@ import React from "react";
 
 function MyWork() {
   const [modalShow, setModalShow] = React.useState(false);
-  const imgURL = "https://cdn.discordapp.com/attachments/1282830483075366964/1302970291953340446/FundoCard.png?ex=672a0d25&is=6728bba5&hm=5eead32f517c55f2398d97138819062fcd4d98040d4532140a88f492f1718829&";
+  const imgURL = "https://r2.fivemanage.com/KlNzf0Pcp1lftyIT6bq7x/FundoCard.png";
   
   return (
     <section className=" text-l bg-neutral-700 text-white p-4 " id="portifolio">

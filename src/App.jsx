@@ -2,9 +2,6 @@
 import './App.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-//Importe de Imagens
-import fundoSite from './assets/fundoSite.jpg';
-
 //Componentes
 import TypedEffect from './TypedEffect';
 import Button from './Button';
@@ -31,7 +28,7 @@ function App() {
         <main
           id='inicio'
           className='flex-1 flex flex-col bg-cover bg-center min-h-screen'
-          style={{ backgroundImage: `url(${fundoSite})` }}>
+          style={{ backgroundImage: `url('https://r2.fivemanage.com/KlNzf0Pcp1lftyIT6bq7x/fundosite.jpg')` }}>
 
           <div className='mt-32 text-5xl font-bold'>
             <h1> Bem vindo! </h1>
